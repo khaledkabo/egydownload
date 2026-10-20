@@ -172,7 +172,7 @@ class EGYDownloadManagerApp:
     def __init__(self, root):
         self.root = root
         self.root.title("EGY Download Manager")
-           self.root.geometry("1000x650")
+        self.root.geometry("1000x650")
         self.root.minsize(800, 500)
         self.root.configure(bg=BG_DARK)
 
